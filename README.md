@@ -12,12 +12,12 @@ bbb::hilbert_curve curve{order};
 ## get n-th point
 
 ```cpp
-bbb::hilbert_curve::coordinate curve[n];
+bbb::hilbert_curve::coordinate coord = curve[n];
 ```
 
 ## get index at (x, y)
 
-```
+```cpp
 std::size_t index = curve.index_at(x, y);
 ```
 
